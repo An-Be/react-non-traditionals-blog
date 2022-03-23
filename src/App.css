@@ -7,3 +7,18 @@
     display: flex;
     justify-content: center;
 }
+
+.Link{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Card{
+    flex-direction: row;
+}
+
+.CardImg{
+
+    width: 20%;
+}

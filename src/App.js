@@ -16,29 +16,30 @@ import {
 } from "reactstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import logo from './Images/logo.svg';
 
 function App() {
   return (
     <Router>
-      <Navbar sticky="top" expand="md">
-        <NavbarBrand href="/">Non-Traditionals Blog</NavbarBrand>
+      <Navbar sticky="top" expand="md">       
+        <NavbarBrand href="/"><img src={logo} alt="logo" width="50" /></NavbarBrand>
         <NavbarToggler />
         <Collapse navbar />
         <Nav navbar>
-          <NavItem>
-            <Link to="/">Home</Link>
+          <NavItem className="NavItem">
+            <Link className="Link" to="/">Home</Link>
           </NavItem>
-          <NavItem>
-            <Link to="/blogs">Blogs</Link>
+          <NavItem className="NavItem">
+            <Link className="Link" to="/blogs">Blogs</Link>
           </NavItem>
-          <NavItem>
-            <Link to="/createBlog">Create Blog</Link>
+          <NavItem className="NavItem">
+            <Link className="Link" to="/createBlog">Create Blog</Link>
           </NavItem>
-          <NavItem>
-            <Link to="/about">About</Link>
+          <NavItem className="NavItem">
+            <Link className="Link" to="/about">About</Link>
           </NavItem>
-          <NavItem>
-            <Link to="/contact">Contact</Link>
+          <NavItem className="NavItem">
+            <Link className="Link" to="/contact">Contact</Link>
           </NavItem>
         </Nav>
         <span className="navbar-text ml-auto">

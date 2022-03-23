@@ -1,4 +1,9 @@
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import question from '../Images/question.png';
+import award from '../Images/award.png';
+import start from '../Images/start.png';
+
+
 
 
 function Home(){
@@ -7,7 +12,7 @@ function Home(){
         <div className="container" id="intro">
             <div className="row">
                 <div className="col-md">
-                    <h1>Hello, Welcome to Non-Traditionals Blog</h1>
+                    <h1>Welcome to Non-Traditionals Blog &#128075;</h1>
                     <p>LOREM IPSUM</p>
                 </div>
             </div>                            
@@ -16,8 +21,8 @@ function Home(){
         <div className="container">
             <div className="row">
                 <div className="col-md m-1">
-                    <Card>
-                       <CardImg></CardImg>                    
+                    <Card className="Card">
+                       <CardImg className="CardImg" src={question} ></CardImg>                    
                        <CardBody>
                            <CardTitle>What is this place?</CardTitle>
                            <CardText>LOREM IPSUM</CardText>
@@ -25,8 +30,8 @@ function Home(){
                     </Card>
                 </div>
                 <div className="col-md m-1">
-                    <Card>
-                       <CardImg></CardImg> 
+                    <Card className="Card">
+                       <CardImg className="CardImg" src={award}></CardImg> 
                        <CardBody>
                            <CardTitle>I have a degree can I join?</CardTitle>
                            <CardText>LOREM IPSUM</CardText>
@@ -34,8 +39,8 @@ function Home(){
                     </Card>
                 </div>
                 <div className="col-md m-1">
-                    <Card>
-                       <CardImg></CardImg> 
+                    <Card className="Card">
+                       <CardImg className="CardImg" src={start}></CardImg> 
                        <CardBody>
                            <CardTitle>How do I start?</CardTitle>
                            <CardText>LOREM IPSUM</CardText>
