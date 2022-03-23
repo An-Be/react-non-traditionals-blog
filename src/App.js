@@ -41,8 +41,7 @@ function App() {
           <NavItem className="NavItem">
             <Link className="Link" to="/contact">Contact</Link>
           </NavItem>
-        </Nav>
-        <span className="navbar-text ml-auto">
+          <span className="navbar-text ml-auto">
           <Link to="/login">
             <Button>
               <i className="fa fa-sign-in fa-lg mr-2" />
@@ -50,6 +49,7 @@ function App() {
             </Button>
           </Link>
         </span>
+        </Nav>
       </Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
