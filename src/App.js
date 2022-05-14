@@ -21,7 +21,7 @@ import logo from './Images/logo.svg';
 function App() {
   return (
     <Router>
-      <Navbar sticky="top" expand="md">       
+      <Navbar className="Navbar-color" sticky="top" expand="md">       
         <NavbarBrand href="/"><img src={logo} alt="logo" width="50" /></NavbarBrand>
         <NavbarToggler />
         <Collapse navbar />
