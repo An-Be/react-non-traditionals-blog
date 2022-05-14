@@ -50,7 +50,6 @@ function Home(){
             </div>
         </div>
         <hr />
-        <div id="downloadBtn"><button >Download the App</button></div>
         </>
     );
 }
