@@ -22,7 +22,7 @@ function Home() {
           <div className="row">
             <div className="col-md col-6" id="getStartedText">
               <p>
-                To get the best experience at Non-traditionals making an account
+                To get the best experience at Non-traditionals making a profile
                 is recommended but if you are just here to browse blogs all you
                 have to do is click on Blogs at the top of the page.
               </p>
