@@ -16,39 +16,51 @@ import {
 } from "reactstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import logo from './Images/logo.svg';
+import logo from "./Images/logo.svg";
 
 function App() {
   return (
     <Router>
-      <Navbar className="Navbar-color" sticky="top" expand="md">       
-        <NavbarBrand href="/"><img src={logo} alt="logo" width="50" /></NavbarBrand>
+      <Navbar className="Navbar-color" sticky="top" expand="md">
+        <NavbarBrand href="/">
+          <img src={logo} alt="logo" width="50" />
+        </NavbarBrand>
         <NavbarToggler />
         <Collapse navbar />
         <Nav navbar>
           <NavItem className="NavItem">
-            <Link className="Link" to="/">Home</Link>
+            <Link className="Link" to="/">
+              Home
+            </Link>
           </NavItem>
           <NavItem className="NavItem">
-            <Link className="Link" to="/blogs">Blogs</Link>
+            <Link className="Link" to="/blogs">
+              Blogs
+            </Link>
           </NavItem>
           <NavItem className="NavItem">
-            <Link className="Link" to="/createBlog">Create Blog</Link>
+            <Link className="Link" to="/createBlog">
+              Create Blog
+            </Link>
           </NavItem>
           <NavItem className="NavItem">
-            <Link className="Link" to="/about">About</Link>
+            <Link className="Link" to="/about">
+              About
+            </Link>
           </NavItem>
           <NavItem className="NavItem">
-            <Link className="Link" to="/contact">Contact</Link>
+            <Link className="Link" to="/contact">
+              Contact
+            </Link>
           </NavItem>
           <span className="navbar-text ml-auto">
-          <Link to="/login">
-            <Button>
-              <i className="fa fa-sign-in fa-lg mr-2" />
-              Login
-            </Button>
-          </Link>
-        </span>
+            <Link to="/login">
+              <Button>
+                <i className="fa fa-sign-in fa-lg mr-2" />
+                Login
+              </Button>
+            </Link>
+          </span>
         </Nav>
       </Navbar>
       <Routes>
