@@ -1,9 +1,10 @@
 function Footer() {
   return (
+
     <footer className="site-footer">
       <hr />
-      <div className="container">
-        <div className="row">
+      <div className="container" >
+        <div className="row" id="intro">
           <div className="col-4 col-sm-2 offset-1">
             <h5>Links</h5>
             <ul className="list-unstyled">
@@ -13,16 +14,17 @@ function Footer() {
               <li>Contact</li>
             </ul>
           </div>
+
           <div className="col-6 col-sm-3 text-center">
             <h5>Social</h5>
             <a
-              className="btn btn-social-icon btn-github"
+              className="btn btn-social-icon btn-github" target="_blank" rel="noreferrer noopener"
               href="https://github.com/An-Be"
             >
               <i className="fa fa-github" />
             </a>{" "}
             <a
-              className="btn btn-social-icon btn-linkedin"
+              className="btn btn-social-icon btn-linkedin" target="_blank" rel="noreferrer noopener"
               href="https://www.linkedin.com/in/andrea-berrocal-/"
             >
               <i className="fa fa-linkedin" />
