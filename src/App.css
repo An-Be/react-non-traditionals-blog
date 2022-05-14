@@ -2,10 +2,13 @@
     display: flex;
     justify-content: center;
 }
-
-#downloadBtn{
+#getStarted{
+    background-color: rgb(242, 237, 245);
+    padding: 10px;
+}
+#getStartedText{
     display: flex;
-    justify-content: center;
+    align-self: center;
 }
 
 #profile-pic{
@@ -29,12 +32,21 @@
     display: flex;
     justify-content: center;
 }
-
 .Card{
+    display: flex;
+    justify-content: center;
+}
+.CardImg{
+    width: 250px;
+
+}
+
+
+#aboutCard{
     flex-direction: row;
 }
 
-.CardImg{
+#aboutCardImg{
 
     width: 75px;
     height: 75px;
