@@ -29,7 +29,7 @@ function CreatePost() {
           </div>
         </div>
         <div className="btn">
-            <button type="submit" class="btn shadow btn-primary btn-lg btn-block mb-4">Post</button>
+            <button type="submit" className="btn shadow btn-primary btn-lg btn-block mb-4">Post</button>
         </div>
       </form>
     </>
