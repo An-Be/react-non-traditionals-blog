@@ -8,10 +8,21 @@
     justify-content: center;
 }
 
+#profile-pic{
+    width: 200px;
+    height: 200px;
+}
+.Navbar-color {
+    background-color: white;
+    border-bottom: .5px solid rgb(179, 173, 173);
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
 .Link{
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .btn{
