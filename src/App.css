@@ -1,53 +1,59 @@
-#intro{
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.navContainer{
+    border-bottom: 1px solid rgb(231, 231, 231);
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav img{
+    width: 4rem;
+}
+.navLinkDiv .navLink{
+    padding: 1rem;
+}
+.container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#getStarted{
-    background-color: rgb(242, 237, 245);
-    padding: 10px;
-}
-#getStartedText{
+.footerContainer{
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(231, 231, 231);
+    background-color: aliceblue;
 }
-
-#profile-pic{
-    width: 200px;
+.sitefooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#profileImage{
+    width: 20rem;
+}
+.blogCardContainer{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    border: 1px solid black;
     height: 200px;
+    width: 500px;
 }
-.Navbar-color {
-    background-color: white;
-    border-bottom: .5px solid rgb(179, 173, 173);
-    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
-    margin-bottom: 20px;
-}
-.Link{
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
-
-.btn{
-    display: flex;
-    justify-content: center;
-}
-.Card{
-    display: flex;
-    justify-content: center;
-}
-.CardImg{
-    width: 250px;
-
-}
-
-
-#aboutCard{
-    flex-direction: row;
-}
-
-#aboutCardImg{
-
-    width: 75px;
-    height: 75px;
+.blogCardContainer h1{
+    font-size: 1rem;
 }
